@@ -31,3 +31,21 @@ backend/app/models/saved_models/*.pkl
 # =========================
 .vscode/
 .DS_Store
+
+
+venv/
+backend/venv/
+
+node_modules/
+
+mlartifacts/
+backend/mlartifacts/
+
+*.joblib
+*.pkl
+
+mlflow.db
+backend/mlflow.db
+
+__pycache__/
+*.pyc
